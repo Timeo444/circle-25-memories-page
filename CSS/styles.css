@@ -15,6 +15,14 @@ header h1 {
     margin: 0;
 }
 
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px auto;
+}
+
 nav a {
     margin: 0 15px;
     text-decoration: none;
@@ -25,11 +33,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
-section {
-    padding: 20px;
-}
+#profiles{
+  margin: 20px 0;
+  padding: 20px;
+} 
 
-.profiles, .gallery, .timeline, .thankyou {
+.gallery, .thankyou {
     margin: 20px 0;
 }
 
